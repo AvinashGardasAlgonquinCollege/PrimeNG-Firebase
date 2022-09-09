@@ -100,8 +100,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "primeng-firebase:build:production",
+            "firebaseProject": "odm-backend",
+            "firebaseHostingSite": "odm-backend"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "1f3ce17f-63f2-4b1f-9af4-b4ec52b9089d"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "odm-backend": {
+      "hosting": {
+        "primeng-firebase": [
+          "odm-backend"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "odm-backend"
+  }
+}
